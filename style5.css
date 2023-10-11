@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20 px;
+}
+
+#sidebar{
+    width: 25%;
+    float: left;
+    padding: 20 px;
+    background-color: lightcyan;
+}
+
+#content{
+    width: 75%;
+    float: right;
+    padding: 10px;
+    background-color: lightsteelblue;
+    
+}
+
+#footer{
+    clear: both;
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    margin-bottom: 15px;
+}
