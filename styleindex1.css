@@ -41,8 +41,14 @@ nav ul li:hover{
     width: 30%;
 }
 
+main img{
+    width: 30%;
+}
+
 #main-container div img{
-    width:100%;
+    width:100git%;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 footer{
