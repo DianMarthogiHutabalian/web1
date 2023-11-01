@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 16px;
+    text-rendering: optimizeSpeed;
+
+
+}
+header{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-container{
+    max-width: 800px; 
+    margin: 0 auto;
+    display: flex;
+}
+
+h3 img{
+    width: 20px;
+    padding-left:10;
+}
+
+.dipdip{
+    color: blue; 
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin-top: 12px;
+    text-align: center; 
+}
+
+input[type="text"] {
+    border: 2px solid #ccc; 
+    margin-top:15px;
+    color: #ccc; 
+    padding: 8px;
+    width: 350px;
+    transition: border-color 0.3s, color 0.3s; 
+    border-radius: 20px;
+}
+
